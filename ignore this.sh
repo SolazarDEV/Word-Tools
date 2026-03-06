@@ -130,13 +130,6 @@ extract() {
   esac
 }
 
-# ── Prompt colorido ────────────────────────────
-PS1='\[\033[01;32m\]\u@termux\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-
-echo "🚀 Termux pronto! Digite 'alias' para ver os atalhos."
-EOF
-ok ".bashrc atualizado com aliases e funções"
-
 # ─── 9. CONFIGURAR GIT BÁSICO ───────────────────────────────
 step "Configurando Git global"
 git config --global color.ui auto
